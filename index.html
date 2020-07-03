@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="icon" href="calculator-icon.png" type="image/x-icon">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/fontawesome.min.js" integrity="sha256-NP9NujdEzS5m4ZxvNqkcbxyHB0dTRy9hG13RwTVBGwo=" crossorigin="anonymous"></script>
+	<title>Neumorphic Calculator via JavaScript</title>
+	<link rel="stylesheet" href="style.css">
+	
+</head>
+<body>
+	<main>
+		<div class="output">
+			<div data-previous-operand class="previous-operand">0</div>
+			<div data-current-operand class="current-operand">0</div>
+		</div>
+		<div class="keys" id="keys">
+			<button data-all-clear class="span-two op_key" id="key18">AC</button>
+			<button data-delete class="op_key" id="key17"><i class="fas fa-backspace"></i></button>
+			<button data-operation class="op_key" id="key15">÷</button>
+			<button data-number id="key7">7</button>
+			<button data-number id="key8">8</button>
+			<button data-number id="key9">9</button>
+			<button data-operation class="op_key" id="key14">*</button>
+			<button data-number id="key4">4</button>
+			<button data-number id="key5">5</button>
+			<button data-number id="key6">6</button>
+			<button data-operation class="op_key" id="key13">-</button>
+			<button data-number id="key1">1</button>
+			<button data-number id="key2">2</button>
+			<button data-number id="key3">3</button>
+			<button data-operation class="op_key" id="key12">+</button>
+			<button data-number id="key10">0</button>
+			<button data-number id="key11">.</button>
+			<button data-equals class="op_key span-two" id="key16">=</button>
+		</div>
+	</main>
+	<script src="main.js"></script>
+</body>
+</html>
